@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/* Code from Week 13 lab for similar page *************************/
+nav {
+  width: 100vw;
+  background-color: darkslategray;
+  color: white;
+  font-size: 20px;
+  padding: 2px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgb(36, 34, 34);
+}
+
+
+/* Welcome Section */
+
+.welcome {
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ background-color: #EEEEEE;
+ padding: 1em;
+ margin-top: 25px;
+}
+
+
+
+/* Previous code from Week 13 draft ********/
+
+.h3 {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 15px;
+  } 
+/* With . before H3, it shows as bold, but not in font family chosen. When just "h3", shows font family but not bold. ??? */
+  
+  label {
+      margin-bottom: 5px;
+      margin-top: 5px;
+      padding: 5px;
+  }
+  
+  div {
+      margin: 5px;
+  }
+  
+.login-btn {
+      border-color: black;
+      background-color: black;
+      color: white;
+      border-width: 1px;
+      margin: 5px;
+      text-align: center;
+  }
+
+.login-btn:hover {
+  background-color: darkslategray;
+  color: white;
+}
